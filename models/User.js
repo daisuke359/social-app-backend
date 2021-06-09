@@ -20,9 +20,11 @@ const UserSchema = mongoose.Schema({
         min: 6,
     }, 
     profilePicture: {
+        type: String,
         default: ""
     },
     coverPicture: {
+        type: String,
         default: ""
     }, 
     followers: {
